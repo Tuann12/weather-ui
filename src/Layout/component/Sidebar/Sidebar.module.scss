@@ -1,0 +1,82 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: var(--colorSidebar);
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.content-top {
+    width: 300px;
+}
+
+.weather-icon {
+    padding-top: 15px;
+    color: rgb(51, 88, 151);
+    font-size: 130px;
+}
+
+.temperature {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.infoToday {
+    font-size: 20px;
+    padding-bottom: 30px;
+
+    & .time {
+        opacity: 0.5;
+    }
+}
+
+.crossbar {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 1px;
+    width: 300px;
+    margin-bottom: 15px;
+}
+
+.content-bottom {
+    flex: 1;
+}
+.weather {
+    padding-top: 15px;
+
+    & span {
+        padding-left: 5px;
+    }
+}
+
+.place {
+    position: relative;
+}
+
+.img-place {
+    margin-top: 30px;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    object-fit: cover;
+    overflow: hidden;
+
+    &:hover {
+        opacity: 0.9;
+        transform: scale(0.99);
+        transition: all linear 0.3s;
+    }
+}
+
+.name-place {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: var(--colorSidebar);
+}

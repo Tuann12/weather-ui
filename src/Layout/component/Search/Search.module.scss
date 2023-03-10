@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+
+    &:hover {
+        background-color: var(--primary);
+    }
+}
+.search-icon {
+    padding: 5px;
+}
+.search-btn {
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    font-size: 1.6rem;
+    color: #000;
+    background-color: transparent;
+}
+.result-icon {
+    border-radius: 50px;
+    margin: 6px 85px 6px 10px;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    background-color: transparent;
+    flex: 1;
+
+    &:hover {
+        background-color: var(--primary);
+    }
+}
