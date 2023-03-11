@@ -21,6 +21,7 @@
     &:hover {
         color: var(--color-foreign);
         background-color: var(--text-color);
+        transition: all linear 0.3s;
     }
 }
 

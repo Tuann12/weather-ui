@@ -1,5 +1,17 @@
+import Navigation from '~/Layout/component/Navigation';
+
 function Week() {
-    return <h1>Week</h1>;
+    return (
+        <>
+            <Navigation title="Mon" temperature="15&deg;" />
+            <Navigation title="Mon" temperature="15&deg;" />
+            <Navigation title="Mon" temperature="15&deg;" />
+            <Navigation title="Mon" temperature="15&deg;" />
+            <Navigation title="Mon" temperature="15&deg;" />
+            <Navigation title="Mon" temperature="15&deg;" />
+            <Navigation title="Mon" temperature="15&deg;" />
+        </>
+    );
 }
 
 export default Week;

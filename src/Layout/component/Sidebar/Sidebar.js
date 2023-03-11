@@ -14,7 +14,7 @@ function Sidebar() {
                 <Search />
                 <div className="weather-info">
                     <FontAwesomeIcon className={cx('weather-icon')} icon={faCloud} />
-                    <h1 className={cx('temperature')}>12*C</h1>
+                    <h1 className={cx('temperature')}>12&deg;C</h1>
                     <div className={cx('infoToday')}>
                         <span>Monday,</span>
                         <span className={cx('time')}> 16:00</span>
@@ -34,10 +34,10 @@ function Sidebar() {
                 <div className={cx('place')}>
                     <img
                         className={cx('img-place')}
-                        src="https://kenh14cdn.com/thumb_w/660/2019/4/24/empire1-15560761422951284289898.jpg"
-                        alt="newyork"
+                        src="https://vanphongchothue.vn/uploads/noidung/images/toa-thap-view-dep-nhat-thanh-pho-ho-chi-minh.jpg"
+                        alt="saigon"
                     />
-                    <span className={cx('name-place')}>New York</span>
+                    <span className={cx('name-place')}>Sai Gon</span>
                 </div>
             </div>
         </div>

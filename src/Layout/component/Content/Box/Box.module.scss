@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+}
+
+.box-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 210px;
+    height: 190px;
+    background-color: var(--color-foreign);
+    border-radius: 20px;
+    padding-left: 25px;
+    margin-right: 8px;
+
+    &:last-child {
+        margin-right: 0px;
+    }
+
+    &:hover {
+        transform: scale(0.98);
+        transition: transform linear 0.5s;
+    }
+
+    &:hover .title {
+        color: var(--text-color);
+        transition: color linear 0.5s;
+    }
+}
+
+.title {
+    font-weight: 600;
+    padding-top: 20px;
+    color: var(--text-color-opacity);
+    font-size: 1.6rem;
+}
+.value {
+    padding-top: 20px;
+    font-size: 3.3rem;
+}
+
+.level {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(-text-color);
+}
+.icon {
+    position: absolute;
+    bottom: 16px;
+    left: 26px;
+    font-size: 2.6rem;
+}

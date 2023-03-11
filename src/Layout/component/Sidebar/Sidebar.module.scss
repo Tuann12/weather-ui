@@ -55,6 +55,11 @@
 
 .place {
     position: relative;
+
+    &:hover .name-place {
+        color: var(--text-color);
+        transition: color linear 0.5s;
+    }
 }
 
 .img-place {
@@ -66,7 +71,7 @@
     overflow: hidden;
 
     &:hover {
-        opacity: 0.9;
+        opacity: 0.5;
         transform: scale(0.99);
         transition: all linear 0.3s;
     }
@@ -76,6 +81,8 @@
     position: absolute;
     top: 60%;
     left: 45%;
+    font-size: 2rem;
+    font-weight: 600;
     transform: translate(-50%, -50%);
     z-index: 1;
     color: var(--color-foreign);

@@ -5,12 +5,12 @@ import styles from './Navigation.module.scss';
 
 const cx = classNames.bind(styles);
 
-function Navigation() {
+function Navigation({ title, temperature }) {
     return (
         <div className={cx('wrapper')}>
-            <span className={cx('title')}>Mon</span>
+            <span className={cx('title')}>{title}</span>
             <FontAwesomeIcon className={cx('icon')} icon={faSun} />
-            <span className={cx('temperature')}>15&deg;</span>
+            <span className={cx('temperature')}>{temperature}</span>
         </div>
     );
 }
