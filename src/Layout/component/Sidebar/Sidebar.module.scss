@@ -4,7 +4,7 @@
     width: 360px;
     min-height: 100vh;
     overflow: hidden;
-    background-color: var(--colorSidebar);
+    background-color: var(--color-foreign);
     padding-top: 20px;
     padding-left: 30px;
 }
@@ -30,7 +30,7 @@
     padding-bottom: 30px;
 
     & .time {
-        opacity: 0.5;
+        color: var(--text-color-opacity);
     }
 }
 
@@ -78,5 +78,5 @@
     left: 45%;
     transform: translate(-50%, -50%);
     z-index: 1;
-    color: var(--colorSidebar);
+    color: var(--color-foreign);
 }

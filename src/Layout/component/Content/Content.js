@@ -1,5 +1,5 @@
 function Content() {
-    return <h1>Content</h1>;
+    return;
 }
 
 export default Content;

@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 10px;
+    background-color: var(--color-foreign);
+    width: 100vh;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(198, 198, 198, 0.086);
+
+    &:last-child {
+        margin-right: 0px;
+    }
+}
+.title {
+    padding-top: 15px;
+    font-size: 1.5rem;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+.temperature {
+    padding-bottom: 15px;
+}

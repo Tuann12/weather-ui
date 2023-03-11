@@ -3,7 +3,9 @@
 
 :root {
     --primary: #f6f6f8;
-    --colorSidebar: #fff;
+    --color-foreign: #fff;
+    --text-color: #161823;
+    --text-color-opacity: #33333352;
 }
 
 * {
@@ -20,4 +22,15 @@ html {
 body {
     font-size: 1.6rem;
     line-height: 1.6rem;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
 }

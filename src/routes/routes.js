@@ -1,10 +1,11 @@
+import config from '~/config';
 import Today from '~/pages/Today';
 import Week from '~/pages/Week';
 
 //Public routes
 const publicRoutes = [
-    { path: '/', component: Today },
-    { path: '/week', component: Week },
+    { path: config.routes.today, component: Today },
+    { path: config.routes.week, component: Week },
 ];
 
 const privateRoutes = [];

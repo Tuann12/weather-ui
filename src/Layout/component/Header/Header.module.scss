@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.temperature-btn {
+    padding-left: -20px;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    background-color: var(--color-foreign);
+    padding: 8px;
+    border-radius: 50px;
+    margin-left: 15px;
+    cursor: pointer;
+
+    &:hover {
+        color: var(--color-foreign);
+        background-color: var(--text-color);
+    }
+}
+
+.avatar {
+    margin-left: 25px;
+    width: 35px;
+    height: 35px;
+    border-radius: 10px;
+    cursor: pointer;
+}
