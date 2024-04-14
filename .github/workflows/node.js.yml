@@ -38,6 +38,6 @@ jobs:
 
             - name: Install dependencies and start Node server
               run: |
-                  cd path/to/node/app
+                  cd D:\Frontend\reactjs\weather-ui>
                   npm install
                   npm start
