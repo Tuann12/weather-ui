@@ -20,7 +20,7 @@ jobs:
 
             - name: Install dependencies and build React app
               run: |
-                  cd path/to/react/app
+                  cd D:\Frontend\reactjs\weather-ui>
                   npm install
                   npm run build
 
