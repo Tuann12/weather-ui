@@ -20,7 +20,7 @@ jobs:
 
             - name: Install dependencies and build React app
               run: |
-                  cd D:\Frontend\reactjs\weather-ui>
+                  cd D:/Frontend/reactjs/weather-ui
                   npm install
                   npm run build
 
@@ -38,6 +38,6 @@ jobs:
 
             - name: Install dependencies and start Node server
               run: |
-                  cd D:\Frontend\reactjs\weather-ui>
+                  cd D:/Frontend/reactjs/weather-ui  # Thay đổi đường dẫn tới thư mục React app của bạn
                   npm install
                   npm start
